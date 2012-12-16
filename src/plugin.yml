@@ -1,0 +1,12 @@
+name: LuaBucket
+main: md.zoidberg.luabucket2.LuaBucketPlugin
+version: 2.0-pre
+commands:
+    luareload:
+        description: Reset all Lua code.
+        usage: |
+            /luareload. Quite obvious.
+    luazerocommand:
+        description: Does absolutely nothing. Used to reroute commands from console.
+        usage: |
+            /luazerocommand

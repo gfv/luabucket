@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="LuaBucket">
+    <output-path>$PROJECT_DIR$/out/artifacts/LuaBucket</output-path>
+    <root id="archive" name="LuaBucket.jar">
+      <element id="module-output" name="LuaBucket-NG" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/plugin.yml" />
+      <element id="directory" name="lua">
+        <element id="dir-copy" path="$PROJECT_DIR$/src/lua" />
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/luaj-jse-2.0.2.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
